@@ -6,5 +6,4 @@ AdminModule For Masterji
 
 
 ##***Images***
-![alt text](https://github.com/dixitji99/AdminMasterJi1/blob/master/app/src/main/res/drawable/20.jpeg?raw=true "*Splash Screen*")
-<img src="https://github.com/dixitji99/AdminMasterJi1/blob/master/app/src/main/res/drawable/20.jpeg" width="40" height="70">
+<img src="https://github.com/dixitji99/AdminMasterJi1/blob/master/app/src/main/res/drawable/20.jpeg" width="100" height="150">
