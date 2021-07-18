@@ -11,4 +11,10 @@
     <color name="textcolor">#201F1F</color>
     <color name="themecolor">#F51396</color>
     <color name="saladcolor1">#50A7C2</color>
+    <color name="studentcolor">#12A0F8</color>
+    <color name="studentcolorlight">#4DADE8</color>
+    <color name="studentcolorlight2">#8DCBF1</color>
+    <color name="optionbgcolor">#1A86CA</color>
+    <color name="tutorcardviewlight">#9DE4FA</color>
+
 </resources>
