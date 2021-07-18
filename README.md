@@ -5,5 +5,6 @@ AdminModule For Masterji
 #This module is built on android studio
 
 
-**Images**
-![alt text](https://github.com/dixitji99/AdminMasterJi1/blob/master/app/src/main/res/drawable/20.jpeg?raw=true "Splash Screen")
+##***Images***
+![alt text](https://github.com/dixitji99/AdminMasterJi1/blob/master/app/src/main/res/drawable/20.jpeg?raw=true "*Splash Screen*")
+<img src="https://github.com/dixitji99/AdminMasterJi1/blob/master/app/src/main/res/drawable/20.jpeg" width="40" height="70">
