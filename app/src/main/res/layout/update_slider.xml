@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateSlider"
+    android:background="@drawable/shades_of_grey">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Slider"
+        android:id="@+id/update_slider_tag"
+        android:fontFamily="@font/normal"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:background="@drawable/morning_salad"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/refresh_update_slider"
+        android:layout_below="@id/update_slider_tag">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/update_slider_recyclerview"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/add_slider"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_addicon"
+        android:foregroundGravity="center"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:background="@drawable/cicular_bg1"
+        />
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadPDF"
+    android:background="@drawable/shades_of_grey">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload File"
+        android:id="@+id/upload_file_tag"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:fontFamily="@font/normal"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@drawable/morning_salad"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/upload_file_tag"
+        android:id="@+id/class_spinner_lyt"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/round_white">
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:id="@+id/class_spinner"
+            android:foregroundGravity="center"
+            android:scrollbarSize="50dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/upload_button_layout"
+        android:layout_below="@id/class_spinner_lyt"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:focusable="true"
+        android:clickable="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/_20sdp"
+            android:paddingRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title:"
+                android:textColor="@color/black"
+                android:fontFamily="@font/normal"
+                android:textSize="@dimen/_20sdp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pdf_title"
+                android:layout_marginLeft="@dimen/_1sdp"
+                android:padding="@dimen/_4sdp"
+                android:textColor="@color/saladcolor1"
+                android:textColorHint="#423C3C"
+                android:hint="eg.hindi ch1.."
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="@dimen/_18sdp"
+                android:singleLine="true"
+                android:background="@drawable/round_white"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_65sdp"
+            android:id="@+id/upload_pdf"
+            android:elevation="5dp"
+            android:background="@drawable/upload_button_bg"
+            android:padding="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/ic_sd_1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Upload"
+                android:textStyle="bold"
+                android:fontFamily="@font/normal"
+                android:textSize="30dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

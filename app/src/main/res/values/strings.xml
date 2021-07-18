@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AdminMasterJi</string>
+    <string-array name="numbers">
+        <item>Class</item>
+        <item>class_1</item>
+        <item>class_2</item>
+        <item>class_3</item>
+        <item>class_4</item>
+        <item>class_5</item>
+        <item>class_6</item>
+        <item>class_7</item>
+        <item>class_8</item>
+        <item>class_9</item>
+        <item>class_10</item>
+        <item>class_11</item>
+        <item>class_12</item>
+    </string-array>
+</resources>
